@@ -4,7 +4,7 @@
 
 export default validator;*/
 
-document.addEventListener("DOMContentLoaded", function() {
+
   
   /*a variável 'inputCard' seleciona o input q está dentro do html a partir do seu Id
    o escutador ouve a ação do click e começa função validar*/
@@ -34,12 +34,12 @@ document.addEventListener("DOMContentLoaded", function() {
           cardArray[5] = parseInt(cardArray[5][0]) + parseInt(cardArray[5][1]);
       }
       cardArray[7] = parseInt(cardArray[7]) * 2;
-      if(parseInt(cardArray[5])>=10){
+      if(parseInt(cardArray[7])>=10){
         cardArray[7] = String(cardArray[7]).split('');
         cardArray[7] = parseInt(cardArray[7][0]) + parseInt(cardArray[7][1]);
     }
       cardArray[9] = parseInt(cardArray[9]) * 2;
-      if(parseInt(cardArray[5])>=10){
+      if(parseInt(cardArray[9])>=10){
         cardArray[9] = String(cardArray[9]).split('');
         cardArray[9] = parseInt(cardArray[9][0]) + parseInt(cardArray[9][1]);
     }
@@ -49,12 +49,12 @@ document.addEventListener("DOMContentLoaded", function() {
         cardArray[11] = parseInt(cardArray[11][0]) + parseInt(cardArray[11][1]);
     }
       cardArray[13] = parseInt(cardArray[13]) * 2;
-      if(parseInt(cardArray[3])>=10){
+      if(parseInt(cardArray[13])>=10){
         cardArray[13] = String(cardArray[13]).split('');
         cardArray[13] = parseInt(cardArray[13][0]) + parseInt(cardArray[13][1]);
     }
       cardArray[15] = parseInt(cardArray[15]) * 2;
-      if(parseInt(cardArray[5])>=10){
+      if(parseInt(cardArray[15])>=10){
         cardArray[15] = String(cardArray[15]).split('');
         cardArray[15] = parseInt(cardArray[15][0]) + parseInt(cardArray[15][1]);
     }
@@ -69,11 +69,11 @@ document.addEventListener("DOMContentLoaded", function() {
       if(regExp.test(cartaoFinal)){ /*.test é uma expressão regular que testa a let regExp, se os padrões
         forem true, aparece o alert */
           alert('Somente Números');
-      }
   })
 })
  
-/* const arr = [54, 65, 45, 56, 76]
+/* const arrayDigits = [cardDigits];
+console.log(arrayDigits)
 
 const multiplicaIndicesPares = arr.map((numero, indice) => {
   if (indice % 2 === 0) {
