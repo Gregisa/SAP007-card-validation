@@ -2,13 +2,64 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Cartão</title>
+    <title>Point de Cannes</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+    <div id="container" class=navigator> 
+    <div id="mainnav">  		
+      <ul>  			
+        <li><a href="https://www.cineset.com.br/festival-de-cannes-quem-sai-forte-para-o-oscar-2022/" target="_blank">
+          De Cannes ao Oscar</a></li>  			
+        <li><a href="https://mubi.com/pt/lists/the-top-1000" target="_blank">
+          Seleção especial </a></li>  			
+        <li><a href="https://www.timeout.pt/lisboa/pt/filmes/os-filmes-classicos-imprescindiveis" target="_blank">
+          Por onde começar?</a></li>  			
+        <li><a href="https://www.culturagenial.com/melhores-filmes-brasileiros-de-todos-os-tempos/" target="_blank">
+          Brazuca</a></li>  		
+      </ul>  	
     </div>
-    <script src="index.js" type="module"></script>
+    </div>  	
+    
+    <figure>
+      <img src="cinema.jpg" width="200px" height="100px" alt="cinema" class=image>
+    </figure>
+    
+    <div id="area" class="content">
+    
+      <h1>Point de Cannes</h1> 
+      <p class="message">Seu teste de 30 dias expirou! Continue sendo um usuário Première <br>
+         e receba em primeira mão as novidades do mundo cinéfilo por 
+         apenas R$15,99/mês. <br> É só inserir um número de cartão de crédito válido:<br></p>
+    
+
+      <input type="text" name="card" id="cardNumber" placeholder="0000 0000 0000 0000">
+      <input type="button" value="Validar" id="cardButton" class="button" onclick="validar()">
+    </div>
+
+    <br><br><br>
+    <footer class=footer>
+     Developed by: Isabela Gregoraci
+      <div class="contact">
+        <a href="https://www.linkedin.com/in/isabela-bonander-gregoraci-9424a015b/" target="_blank">
+          Linkedin</a>
+        <a href="https://www.github.com/Gregisa" target="_blank">Github</a>
+
+
+
+     </div>
+
+    </footer>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  
+
+<script src="validator.js"></script>
+<script src="index.js" type="module"></script>
+
   </body>
 </html>
