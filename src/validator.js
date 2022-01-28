@@ -1,44 +1,71 @@
-const validator = {
-isValid(cardNumber){
+const validator = {    
+  isValid(cardNumber) {
+    let cardArray= []                 //variável carArray declarada vazia, pq ainda não foi transformada
+                                      //em número p poder ser manipulada
+   
+  for(let i=0; i>cardArray.length; i++) {     //o loop for vai iterar os caracteres até o comprimento
+    let arrayNumeros=parseInt(cardNumber[i]); //do array (no caso 16) a variável arrayNumeros vai armazenar o resultado dos
+    cardArray.push(arrayNumeros)              //caracteres do array transformados em numbers através do parseInt
+  }
+                                              //push manda para a variável cardArray seus caracteres já transformados em numbers 
+                                              //em arraNumeros
+  let reverseArray=arrayNumbers.reverse()     //a variável reverseArray armazena o resultado dos números do array
+                                              //invertidos por meio do reverse()
 
-validator.isValid(cardNumber){
+  for(let i=0;i<reverseArray.length; i++){    //for p identificar as posições intercaladas dentro do array que serão *2
+  if(i%2==0){
 
-let cardArray=Array.from(cardNumber).reverse();
-console.log(cardArray)
-
-/*for (let i=0; i>cardArray.length; i++) ???*/
-for (let i = 0; (i=cardArray.length-1); i++) {
-    if (i %2 !=0){
-        cardArray[i]=cardArray[i]*2;
     }
-}
-
- let double= cardArray[i]*2
- let oneDigit= 9
- if (double>=10){
-  function subtract;(double,oneDigit){
-    return double-oneDigit
   }
 
- }
- 
+  }
+}
 
- let finalResult=cardArray.reduce(
-    (finalResult, )= finalResult+ 
-    );
+
+
+
+// isValid(cardNumber){
+
+// console.log(cardArray)
+
+// for (let i = 0; i>cardArray.length; i++) {
+//     if (i %2 !=0){
+//         cardArray[i]=cardArray[i]*2;
+//     }
+// }
+
+//  let double= cardArray[i]*2
+//  let oneDigit= 9
+//  if (double>=10){
+//   function substract (double,oneDigit){
+//     return double-oneDigit
+//   }
+
+//  }
     
-    if (finalResult%10==0){
-    alert('Este cartão é válido');
-    }
-    if (finalResult%10!=0){
-    alert('Este cartão não é válido');
-    }
+//     if (finalResult%10==0){
+//     alert('Este cartão é válido');
+//     }
+//     if (finalResult%10!=0){
+//     alert('Este cartão não é válido');
+//     }
     
-    function(){
-      
-      validator.maskify 
+    /*function maskify(cardNumber){
+      if(cardNumber.length<4){
+        return cardNumber
+      } else {
+        let lastFour=''
+        for(let i=cardNumber.length -4; i< cardNumber.length; i++){
+          lastFour += cardNumber[i]
+        }
+        let mask=''
+        for(let cat=0; cat<cardNumber.cardNumber.length -4; cat ++){
+        mask += "😺"
+        }
+        return mask + lastFour
+      }
         
-      let maskDigits= Array.from(cardNumber);
+      /*let maskDigits= Array.from(cardNumber);
     
         for (let i = 0; i < maskDigits.length - 4; i++) {
           maskDigits[i] = "😺";
@@ -46,9 +73,7 @@ for (let i = 0; (i=cardArray.length-1); i++) {
         let join = maskDigits.join("");
     
         return join;
-      };
-  },
-  };
+      }; */
 
 
 export default validator;

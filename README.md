@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Card Validation Project -Point de Cannes-
+=======
+Projeto Validação Cartão de Crédito- Point de Cannes
+>>>>>>> df7d64da567e0c96a4dbb3bc4227049772c58e7e
 
 ## SUMÁRIO
 
