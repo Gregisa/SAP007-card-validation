@@ -1,14 +1,16 @@
-body{
+body{  
     text-align:center;
     font-family: 'Cinzel', serif;
     background-color: #990000;
     padding: 1%;
-  }
+  }                                   /*estilização do conteúdo da página, com cor, 
+                                        fonte e espaçamento para ficar alinhado*/
 
-  p{
+  p{                                  /*centralização do parágrafo */
     text-align:center;
 }
-  .content{
+  .content{                            /*estilização da div que contém o conteúdo principal da app
+                                                 */
       background: rgb(196, 154, 77);
       padding: 5px;
       margin: 1em auto;  	
@@ -16,8 +18,8 @@ body{
       border-radius:20px;
       height: 250px;	
   }
-.navigator ul {
-	margin: 0 0 0 20px;
+.navigator ul {                              /*est. do navegador, que tem um menu em forma de lista com conteúdos*/
+	margin: 0 0 0 20px;                      /* que ao passar o mouse, mudam de cor */
 	padding: 0;
 	list-style-type: none;
 	border-left: 1px solid #410b0b;
