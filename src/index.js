@@ -21,6 +21,5 @@ let cardNumber =document.getElementById('cardNumber').value;
         if(regExp.test(cardNumber)){                 /*.test é uma expressão regular que testa a let regExp, se os padrões
                                                      forem encontrados, aparece o alert */
             alert('Somente Números');
-        }
-      )}
-    )}
+        };
+    }
