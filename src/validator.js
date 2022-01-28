@@ -12,29 +12,17 @@ const validator = {
   let reverseArray=arrayNumbers.reverse()     //a variável reverseArray armazena o resultado dos números do array
                                               //invertidos por meio do reverse()
 
+  let double=reverseArray[i]*2                                         
   for(let i=0;i<reverseArray.length; i++){    //for p identificar as posições intercaladas dentro do array que serão *2
   if(i%2==0){
-
+     reverseArray[i]=double;
     }
   }
 
+
+
   }
 }
-
-
-
-
-// isValid(cardNumber){
-
-// console.log(cardArray)
-
-// for (let i = 0; i>cardArray.length; i++) {
-//     if (i %2 !=0){
-//         cardArray[i]=cardArray[i]*2;
-//     }
-// }
-
-//  let double= cardArray[i]*2
 //  let oneDigit= 9
 //  if (double>=10){
 //   function substract (double,oneDigit){
