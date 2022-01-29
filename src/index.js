@@ -8,15 +8,14 @@ inputCard.addEventListener('click', function(e){        //e o escutador de event
   e.preventDefault();
 });
 const cardNumber=document.getElementById('cardNumber').value; //a variável 'cardNumber' armazena o valor do número digitado
- 
+ console.log(cardNumber);
 const inputDigitos =document.getElementById('cardNumber');
 const regExp = /[a-zA-Z]/i;/                                 //expregular- identifica ;padrões ;de; caracteres, podendo ;validar; dar ;replace, mascarar
     inputDigitos.addEventListener('keypress', function(){    //o 'i' depois da barra é um modificador, ele localiza o caracter independente se for maiúsculo ou minúsculo
-        if(regExp.test(cardNumber)){                 /*.test é uma expressão regular que testa a let regExp, se os padrões
-                                                     forem encontrados, aparece o alert */
+        if(regExp.test(cardNumber)){                         //test é uma expressão reg que testa a const regExp, se os padrões forem encontrados, aparece um alert
          alert('Somente Números');
         };
-    }
+    })
 
     // let maskify={
     //   hideNumbers(cardNumber) {
@@ -59,4 +58,4 @@ const regExp = /[a-zA-Z]/i;/                                 //expregular- ident
         let join = maskDigits.join("");
     
         return join;
-      }; */)
+      }; */

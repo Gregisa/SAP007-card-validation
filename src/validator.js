@@ -1,5 +1,3 @@
-export default validator;
-
 
 const validator = {    
   isValid(cardNumber) {
@@ -16,7 +14,7 @@ const validator = {
                                               //invertidos por meio do reverse()
   let oneDigit=9
   let double=reverseArray[i]*2                                         
-  for(let i=0;i<reverseArray.length; i++){    //for p identificar as posições intercaladas dentro do array que serão *2
+  for(let i=0; i<reverseArray.length; i++){    //for p identificar as posições intercaladas dentro do array que serão *2
   if(i%2==0){
     return reverseArray[i]=double;
     }
@@ -31,6 +29,9 @@ const validator = {
 
   }
 }
+export default validator;
+
+
 //  
 //     if (finalResult%10==0){
 //     isValid=true;
@@ -39,11 +40,6 @@ const validator = {
 //     if (finalResult%10!=0){
 //     alert('Este cartão não é válido');
 //     }
-
-export default validator;
-
-
-  
   /*a variável 'inputCard' seleciona o input q está dentro do html a partir do seu Id
    o escutador ouve a ação do click e começa função validar
   
