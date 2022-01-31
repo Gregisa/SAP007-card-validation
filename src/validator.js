@@ -1,9 +1,9 @@
 
 const validator = {    
-  isValid(cardNumber) {
-    let cardArray= []                 //variável carArray declarada vazia, pq ainda não foi transformada
-                                      //em número p poder ser manipulada
-   
+  isValid(cardNumber) {                        //variáveis cardArray e soma declaradas vazias, uma pq será usada+tarde e a outra ainda n foi transformada
+    let cardArray= []   
+                                              
+
   for(let i=0; i<cardArray.length; i++) {     //o loop for vai iterar os caracteres até o comprimento
     let arrayNumbers=parseInt(cardNumber[i]); //do array (no caso 16) a variável arrayNumeros vai armazenar o resultado dos
     cardArray.push(arrayNumbers)              //caracteres do array transformados em numbers através do parseInt
@@ -11,44 +11,44 @@ const validator = {
                                               //push manda para a variável cardArray seus caracteres já transformados em numbers 
                                               //em arraNumeros
   let reverseArray=arrayNumbers.reverse()     //a variável reverseArray armazena o resultado dos números do array
-                                              //invertidos por meio do reverse()
-  let oneDigit=9
-  let double=reverseArray[i]*2                                         
+  let double=reverseArray[i]*2                //invertidos por meio do reverse()                                
   for(let i=0; i<reverseArray.length; i++){    //for p identificar as posições intercaladas dentro do array que serão *2
   if(i%2==0){
     return reverseArray[i]=double;
     }
-   if(double>=10){
-     function subtract(double, oneDigit){
-       return double-oneDigit
-     }
-   }
+    if(reverseArray[i]>=10){
+        reverseArray[i] = reverseArray[i].split('');
+        reverseArray[i] = reverseArray[i][0] + reverseArray[i][1];
+        console.log(reverseArray);
+    }
   }
 
-
-
+    let validate= 0
+    for(let i=0; i<reveseArray.length; i++) {
+      validate += reverseArray[i];
+    }
+    if(validate %10==0){
+      return true;
+    }else{
+      return false;
+    }
+     
   }
 }
-export default validator;
-
-
-//  
-//     if (finalResult%10==0){
-//     isValid=true;
-//     alert('Este cartão é válido');
-//     }
-//     if (finalResult%10!=0){
-//     alert('Este cartão não é válido');
-//     }
-  /*a variável 'inputCard' seleciona o input q está dentro do html a partir do seu Id
-   o escutador ouve a ação do click e começa função validar
-  
-   let inputCard = window.document.getElementById('cardButton');
-  inputCard.addEventListener('click', function(){
-    
-    /*a função aqui pega o valor do número digitado 
-     
-    let numeroDigitado = window.document.getElementById('cardNumber').value;
+const maskify={                                       //var maskify armazena o processo de mascarar os dígitos a partir da função hideNumbers
+  hideNumbers(cardNumber) {                           //
+   let cat=[];
+    for(let i=0; i<cardNumber.length; i++){
+      if(i< cardNumber.length-4){
+        cat.push('😺');
+     }else{
+        cat.push(cardNumber[i]);
+    }
+   }
+    return cat.join('');
+}
+};
+      export default validator;
      
     /*array feito a partir do número digitado
 
@@ -96,26 +96,4 @@ export default validator;
       if(parseInt(cardArray[15])>=10){
         cardArray[15] = String(cardArray[15]).split('');
         cardArray[15] = parseInt(cardArray[15][0]) + parseInt(cardArray[15][1]);
-    }let inputDigitos = window.document.getElementById('cardNumber');
-  
-    let regExp = /[a-zA-Z]/i;/*regExp- identificar e testar padrões de caracteres dentro de uma string, 
-  podendo validar, dar replace, mascarar /o 'i' depois da barra é um modificador, ele localiza independente 
-  se o carcater for maiúsculo ou minúsculo
-
-  let cartaoFinal = window.document.getElementById('cardNumber').value;
-  inputDigitos.addEventListener('keypress', function(){
-      if(regExp.test(cartaoFinal)){ 
-
-
-  
-   function validate(){
-    if(finalResult%10==0){
-      alert('Cartão válido. Bem-vinda, usuária Première!);
-      }else if(finalResult%10!=0){
-        alert('Cartão inválido, tente novamente');
-      }else if(cardNumber.length<16){
-        alert('O cartão deve conter 16 dígitos');
-      }else(cardNumber=!''){
-        alert('Por favor, apenas números');
-      }
-  } */
+    }*/
