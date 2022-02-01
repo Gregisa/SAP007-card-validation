@@ -1,27 +1,25 @@
 
 const validator = {                            //validator armazena as função de validação principal 'isValid' e as operações que serão feitas p descobrir
   isValid(cardNumber) {                        //variável cardArray é declarada vazia porque ainda não foi transformada
-    let cardArray= []   
-                                              
-
-  for(let i=0; i<cardArray.length; i++) {     //o loop for itera os caracteres até o comprimento
-    let arrayNumbers=parseInt(cardNumber[i]); //do array(=16). A variável 'arrayNumbers' armazena o resultado dos
-    cardArray.push(arrayNumbers)              //caracteres do array transformados em numbers através do parseInt
-  }
-                                              //'push' manda para a variável 'cardArray' seus caracteres já transformados em numbers 
-                                              //em 'arrayNumbers'
-  let reverseArray=arrayNumbers.reverse()     //'reverseArray' armazena o resultado dos números do array
-  let double=reverseArray[i]*2                //invertidos por meio do reverse()                                
-  for(let i=0; i<reverseArray.length; i++){   //for identfica as posições intercaladas dentro do array que serão *2
-  if(i%2==0){
-    return reverseArray[i]=double;
+    const cardArray= []   
+    for(let i=0; i<cardNumber.length; i++) {     //o loop for itera os caracteres até o comprimento
+      const digit=parseInt(cardNumber[i]); //do array(=16). A variável 'arrayNumbers' armazena o resultado dos
+      cardArray.push(digit)              //caracteres do array transformados em numbers através do parseInt
+    }                                       //'push' manda para a variável 'cardArray' seus caracteres já transformados em numbers                                   //em 'arrayNumbers'
+  
+    let reverseArray=cardArray.reverse() 
+    console.log(reverseArray);  //'reverseArray' armazena o resultado dos números do array
+    //let double=reverseArray[i]*2                invertidos por meio do reverse()                                
+    for(let i=0; i<reverseArray.length; i++){   //for identfica as posições intercaladas dentro do array que serão *2
+      if(i%2==0){
+        reverseArray[i]=reverseArray[i]*2
+      }
+      if(reverseArray[i]>=10){
+        reverseArray[i] = reverseArray[i]-9
+          console.log(reverseArray);
+      }
     }
-    if(reverseArray[i]>=10){
-        reverseArray[i] = reverseArray[i].split('');
-        reverseArray[i] = reverseArray[i][0] + reverseArray[i][1];
-        console.log(reverseArray);
-    }
-  }
+    console.log(reverseArray);
 
     let validate= 0
     for(let i=0; i<reveseArray.length; i++) {
@@ -33,10 +31,9 @@ const validator = {                            //validator armazena as função 
       return false;
     }
      
-  }
-}
-const maskify={                                       //'maskify' armazena o processo de mascarar os dígitos a partir da função hideNumbers
-  hideNumbers(cardNumber) {                           //
+  },
+                                       //'maskify' armazena o processo de mascarar os dígitos a partir da função hideNumbers
+  maskify(cardNumber) {                           //
    let cat=[];
     for(let i=0; i<cardNumber.length; i++){
       if(i< cardNumber.length-4){
@@ -46,9 +43,9 @@ const maskify={                                       //'maskify' armazena o pro
     }
    }
     return cat.join('');
+  }
 }
-};
-      export default validator;
+export default validator;
      
     /*const cardArray = numeroDigitado.split('');
      
