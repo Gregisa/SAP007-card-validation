@@ -35,6 +35,8 @@ body{                                /*estilização do conteúdo da página, co
       width: 330px;
       background:url("background.jpg");
       color: rgb(196, 154, 77);
+      position:relative;
+      right: 400px;
       padding: 2px 2px 2px 0px;
       margin: 1em auto;  
       border-radius:20px;	
@@ -51,14 +53,35 @@ body{                                /*estilização do conteúdo da página, co
     }
     .cardContainer{           
         height: 400px;
-        width:600px;
+        width:500px;
         background: url("background.jpg");
         border-radius: 20px;
         backdrop-filter: blur(70px);
         box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.797);
         border: solid 2px rgba(255, 255, 255, 0.027);
+        position: relative;
+        left:600px;
+        bottom:350px;
+        padding-left: 2px;
     }
-    
+    .card{width: 300px;
+        height: 180px;
+        background: black;
+        border-radius: 25px;
+        position: relative;
+        top:50px;
+        left:100px;
+    }
+    .cardDigits{
+        position: relative;
+        top:220px;
+        left:30px;
+    }
+    .button{
+        position: relative;
+        top:240px;
+        left:100px;
+    }
     .navigator ul {                              /*est. do navegador, que tem um menu em forma de lista com conteúdos*/
 	margin: 0 0 0 0px;                      /* que ao passar o mouse, mudam de cor */
 	list-style-type: none;
@@ -68,6 +91,8 @@ body{                                /*estilização do conteúdo da página, co
     .navigator li {
         display: inline;
         padding: 0 10px;
+        position: relative;
+        left: 420px;
         
     }
     
