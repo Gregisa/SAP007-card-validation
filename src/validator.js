@@ -1,17 +1,16 @@
 
 const validator = {                            //validator armazena as função de validação principal 'isValid' e as operações que serão feitas p descobrir
   isValid(cardNumber) {                        //variável cardArray é declarada vazia porque ainda não foi transformada
-    const cardArray= []   
+    const cardArray= [];   
     for(let i=0; i<cardNumber.length; i++) {     //o loop for itera os caracteres até o comprimento
       const digit=parseInt(cardNumber[i]); //do array(=16). A variável 'arrayNumbers' armazena o resultado dos
       cardArray.push(digit)              //caracteres do array transformados em numbers através do parseInt
     }                                       //'push' manda para a variável 'cardArray' seus caracteres já transformados em numbers                                   //em 'arrayNumbers'
   
     let reverseArray=cardArray.reverse() 
-    console.log(reverseArray);  //'reverseArray' armazena o resultado dos números do array
-    //let double=reverseArray[i]*2                invertidos por meio do reverse()                                
+     //'reverseArray' armazena o resultado dos números do array invertidos por meio do reverse()                                           
     for(let i=0; i<reverseArray.length; i++){   //for identfica as posições intercaladas dentro do array que serão *2
-      if(i%2==0){
+      if(i%2===0){
         reverseArray[i]=reverseArray[i]*2
       }
       if(reverseArray[i]>=10){
@@ -19,10 +18,8 @@ const validator = {                            //validator armazena as função 
           console.log(reverseArray);
       }
     }
-    console.log(reverseArray);
-
     let validate= 0
-    for(let i=0; i<reveseArray.length; i++) {
+    for(let i=0; i<reverseArray.length; i++) {
       validate += reverseArray[i];
     }
     if(validate %10==0){
@@ -33,62 +30,17 @@ const validator = {                            //validator armazena as função 
      
   },
                                        //'maskify' armazena o processo de mascarar os dígitos a partir da função hideNumbers
-  maskify(cardNumber) {                           //
-   let cat=[];
+  maskify(cardNumber) {                           
+   let mask=[];
     for(let i=0; i<cardNumber.length; i++){
       if(i< cardNumber.length-4){
-        cat.push('😺');
-     }else{
-        cat.push(cardNumber[i]);
+        mask.push('#');
+      }else{
+        mask.push(cardNumber[i]);
     }
    }
-    return cat.join('');
-  }
-}
-export default validator;
-     
-    /*const cardArray = numeroDigitado.split('');
-     
-     parseInt p transformar strings em números e assim conseguir fazer operações 
+    return mask.join('');
+  },
+};
 
-      cardArray[1] = parseInt(cardArray[1]) * 2;
-      if(parseInt(cardArray[1])>=10){
-        cardArray[1] = String(cardArray[1]).split('');
-        split é uma expressão regular p  
-        cardArray[1] = parseInt(cardArray[1][0]) + parseInt(cardArray[1][1]);
-    }
-      cardArray[3] = parseInt(cardArray[3]) * 2;
-      if(parseInt(cardArray[13])>=10){
-        cardArray[3] = String(cardArray[3]).split('');
-        cardArray[3] = parseInt(cardArray[3][0]) + parseInt(cardArray[3][1]);
-    }
-      cardArray[5] = parseInt(cardArray[5]) * 2;
-        if(parseInt(cardArray[5])>=10){
-          cardArray[5] = String(cardArray[5]).split('');
-          cardArray[5] = parseInt(cardArray[5][0]) + parseInt(cardArray[5][1]);
-      }
-      cardArray[7] = parseInt(cardArray[7]) * 2;
-      if(parseInt(cardArray[7])>=10){
-        cardArray[7] = String(cardArray[7]).split('');
-        cardArray[7] = parseInt(cardArray[7][0]) + parseInt(cardArray[7][1]);
-    }
-      cardArray[9] = parseInt(cardArray[9]) * 2;
-      if(parseInt(cardArray[9])>=10){
-        cardArray[9] = String(cardArray[9]).split('');
-        cardArray[9] = parseInt(cardArray[9][0]) + parseInt(cardArray[9][1]);
-    }
-      cardArray[11] = parseInt(cardArray[11]) * 2;
-      if(parseInt(cardArray[11])>=10){
-        cardArray[11] = String(cardArray[11]).split('');
-        cardArray[11] = parseInt(cardArray[11][0]) + parseInt(cardArray[11][1]);
-    }
-      cardArray[13] = parseInt(cardArray[13]) * 2;
-      if(parseInt(cardArray[13])>=10){
-        cardArray[13] = String(cardArray[13]).split('');
-        cardArray[13] = parseInt(cardArray[13][0]) + parseInt(cardArray[13][1]);
-    }
-      cardArray[15] = parseInt(cardArray[15]) * 2;
-      if(parseInt(cardArray[15])>=10){
-        cardArray[15] = String(cardArray[15]).split('');
-        cardArray[15] = parseInt(cardArray[15][0]) + parseInt(cardArray[15][1]);
-    }*/
+export default validator;

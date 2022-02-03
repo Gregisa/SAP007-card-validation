@@ -1,65 +1,109 @@
-body{  
-    text-align:center;
-    font-family: 'Cinzel', serif;
-    background-color: #990000;
-    padding: 1%;
-  }                                   /*estilização do conteúdo da página, com cor, 
-                                        fonte e espaçamento para ficar alinhado*/
 
-  p{                                  /*centralização do parágrafo */
-    text-align:center;
-}
-  .content{                            /*estilização da div que contém o conteúdo principal da app
+body{                                /*estilização do conteúdo da página, com cor,fonte, espaçamento para ficar alinhado*/
+        font-family: 'Cinzel', serif;  
+        background: linear-gradient(          /*gradiente p deixar a imagem de fundo mais suave*/
+            90deg,
+            rgba(214, 250, 216, 0.08),     
+            rgba(235, 253, 239, 0.1)
+          ),
+        url("chairs.jpg");                
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:bottom;
+    }     
+    
+    hr{
+        color: rgb(196, 154, 77);
+        width: 23%;
+        margin: 0 auto 0 0;   
+    }
+    
+    .mainTitle{
+      padding-left: 10px;
+      color:rgb(196, 154, 77);
+      text-align: left;
+    }
+    .subTitle{
+        padding-bottom: 20px;
+        color: rgb(196, 154, 77);
+        font-size: 15px;
+        text-align: left;
+    }
+    .content{                            /*estilização da div que contém o conteúdo principal da app
                                                  */
-      background: rgb(196, 154, 77);
-      padding: 5px;
-      margin: 1em auto;  	
-	  width: 650px;  
-      border-radius:20px;
-      height: 250px;	
-  }
-.navigator ul {                              /*est. do navegador, que tem um menu em forma de lista com conteúdos*/
-	margin: 0 0 0 20px;                      /* que ao passar o mouse, mudam de cor */
-	padding: 0;
+      height: 280px;
+      width: 330px;
+      background:url("background.jpg");
+      color: rgb(196, 154, 77);
+      padding: 2px 2px 2px 0px;
+      margin: 1em auto;  
+      border-radius:20px;	
+      text-align:center;
+      font-weight: bold;
+      backdrop-filter: blur(70px);
+      box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.797);
+      border: solid 2px rgba(255, 255, 255, 0.027);
+    }
+    .lineMessage{
+        width: 100%;
+        margin: 0 auto 0 0;
+        
+    }
+    .cardContainer{           
+        height: 400px;
+        width:600px;
+        background: url("background.jpg");
+        border-radius: 20px;
+        backdrop-filter: blur(70px);
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.797);
+        border: solid 2px rgba(255, 255, 255, 0.027);
+    }
+    
+    .navigator ul {                              /*est. do navegador, que tem um menu em forma de lista com conteúdos*/
+	margin: 0 0 0 0px;                      /* que ao passar o mouse, mudam de cor */
 	list-style-type: none;
-	border-left: 1px solid #410b0b;
-    background-color: black;
+    justify-content:space-evenly
+    ;	
 	}
     .navigator li {
         display: inline;
         padding: 0 10px;
-        border-right: 1px solid #C4C769;
-        }
+        
+    }
     
     .navigator li a {
         text-decoration: none;
-        color: #c94f17;
-        }
+        color: rgb(196, 154, 77);
+        font-weight: bold;
+    }
     
     .navigator li a:hover {
         text-decoration: none;
         color: #fff;
-        }
+    }
     
     .navigator{  	
         margin: 1em auto;  	
-        width: 650px;  	
+    
         }    
 
-        .footer{
+        .footerInfos{
             color: rgb(196, 154, 77);
+            padding: 32px;
+            border-top: 0.4px solid #FFF2E7;
+            text-align: center;
 
         }
         .contact{
             color:rgb(196, 154, 77);
-            padding-left: 70%;
-          }
+            text-align: center;
+        }
           .contact a:hover{
               color:#c94f17;
-          }
+        }
           .contact a:visited{
               color:rgb(196, 154, 77);
-          }
+        }
     
           @media only screen and (max-device-width: 700px) {
         }
