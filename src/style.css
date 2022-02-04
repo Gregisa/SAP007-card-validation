@@ -8,8 +8,7 @@ body{                                /*estilização do conteúdo da página, co
           ),
         url("chairs.jpg");                
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position:bottom;
+        background-size:cover;
     }     
     
     hr{
@@ -32,13 +31,13 @@ body{                                /*estilização do conteúdo da página, co
     .content{                            /*estilização da div que contém o conteúdo principal da app
                                                  */
       height: 280px;
-      width: 330px;
+      max-width:330px;
       background:url("background.jpg");
       color: rgb(196, 154, 77);
       position:relative;
       right: 400px;
-      padding: 2px 2px 2px 0px;
-      margin: 1em auto;  
+      padding:10px;
+      margin:auto;  
       border-radius:20px;	
       text-align:center;
       font-weight: bold;
@@ -66,7 +65,7 @@ body{                                /*estilização do conteúdo da página, co
     }
     .card{width: 300px;
         height: 180px;
-        background: black;
+        background: linear-gradient(68.15deg, #2F2325 16.62%, #9b6767 85.61%);
         border-radius: 25px;
         position: relative;
         top:50px;
@@ -76,30 +75,33 @@ body{                                /*estilização do conteúdo da página, co
         position: relative;
         top:220px;
         left:30px;
+        background-color:#EEE8AA;
+        border-radius:10px;
     }
     .button{
         position: relative;
         top:240px;
         left:100px;
+        background-color:#EEE8AA;
+        border-radius: 10px;
     }
     .navigator ul {                              /*est. do navegador, que tem um menu em forma de lista com conteúdos*/
 	margin: 0 0 0 0px;                      /* que ao passar o mouse, mudam de cor */
 	list-style-type: none;
-    justify-content:space-evenly
-    ;	
+    justify-content:space-evenly;	
 	}
     .navigator li {
         display: inline;
         padding: 0 10px;
         position: relative;
-        left: 420px;
+        left: 500px;
+        font-weight: bolder;
         
     }
     
     .navigator li a {
         text-decoration: none;
         color: rgb(196, 154, 77);
-        font-weight: bold;
     }
     
     .navigator li a:hover {
@@ -114,9 +116,10 @@ body{                                /*estilização do conteúdo da página, co
 
         .footerInfos{
             color: rgb(196, 154, 77);
-            padding: 32px;
-            border-top: 0.4px solid #FFF2E7;
+            padding: 10px;
             text-align: center;
+            font-size: 20px;
+            font-weight: bolder;
 
         }
         .contact{
@@ -130,5 +133,6 @@ body{                                /*estilização do conteúdo da página, co
               color:rgb(196, 154, 77);
         }
     
-          @media only screen and (max-device-width: 700px) {
-        }
+          @media only screen and (max-device-width: 700px){
+
+          }
