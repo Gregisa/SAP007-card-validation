@@ -10,7 +10,7 @@ Card Validation Project -Point de Cannes-
 - [4. Planejamento do Projeto](#4-Planejamento)
 - [5. Aprendizado](#5-O-que-aprendi)
 - [6. Ferramentas Ultilizadas ](#6-Ferramentas)
-- [7. Sobre a autora] (#7-Autora)
+- [7. Sobre a autora](#7-Autora)
 
 
 
