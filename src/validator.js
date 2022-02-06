@@ -19,26 +19,35 @@
            console.log(reverseArray);
        }
      }
-     let finalSum= 0;
-     for(let i=0; i<reverseArray.length; i++) {
-       finalSum= finalSum+ reverseArray[i];
+     let finalSum= 0;                            //soma final dos números do array
+     for(let i=0; i<reverseArray.length; i++) {  //loop p iterar todos os caracteres
+       finalSum= finalSum+ reverseArray[i];      //somano todos os caracteres
         }
         
-     if(finalSum %10===0){
-      return true;
+     if(finalSum %10===0){                       //se o resultado da soma for múltiplo de 10
+      return true;                               //retorna verdadeiro
      }else{
-       return false;
+       return false;                             //se não, falso
      }
-    },
+    }
     /*maskify: function (cardNumber){
-      let maskNumber=cardNumber.split("");
 
-      for(let m=0; m< maskNumber.length; m++){
-        if(m<=maskNumber.length-4){
-          maskNumber[m]="#";
+      if(cardNumber.length<4){
+        return cardNumber
+      }else{
+        let maskNumbers=''
+
+      for(let i=cardNumber.length-4; i< cardNumber.length; i++){
+          maskNumber= maskNumber + cardNumber[i]
         }
+         let mask=''
+         for(let i=0; i<cardNumber.length-4; i++){
+           mask= mask+ '#'
+         }
+         return mask+maskNumbers
+
       }
-      return maskNumber.toString().replace(/,/g,"");
     }*/
-  } 
+  };
+
   export default validator;

@@ -85,7 +85,7 @@ body{                                /*estilização do conteúdo da página, co
         background-color:#EEE8AA;
         border-radius: 10px;
     }
-    .navigator ul {                              /*est. do navegador, que tem um menu em forma de lista com conteúdos*/
+    .navigator ul {                          /*est. do navegador, que tem um menu em forma de lista com conteúdos*/
 	margin: 0 0 0 0px;                      /* que ao passar o mouse, mudam de cor */
 	list-style-type: none;
     justify-content:space-evenly;	
@@ -122,15 +122,13 @@ body{                                /*estilização do conteúdo da página, co
             font-weight: bolder;
 
         }
-        .contact{
-            color:rgb(196, 154, 77);
-            text-align: center;
+        .linkedin{
+            width:70px;
+            height:50px;
         }
-          .contact a:hover{
-              color:#c94f17;
-        }
-          .contact a:visited{
-              color:rgb(196, 154, 77);
+        .github{
+            width:70px;
+            height:50px;
         }
     
           @media only screen and (max-device-width: 700px){
