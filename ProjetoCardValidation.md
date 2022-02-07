@@ -42,11 +42,6 @@ Além disso, os dígitos devem ser mascarados (exceto os últimos 4), por quest�
 PROTÓTIPO 1:
 Assim que decidi qual seria o projeto que faria (tinham duas opções), já imaginei o layout e fiz num papel:
 
-
-<div align="center>
-            
- </div>
-
 Porém, esse primeiro layout tinha um problema: o foco desse projeto. Para fazer um cartão de crédito usando CSS e HTML, a demanda de tempo e dedicação seria grande (não impossível). Como minha meta para essa aplicação era ter mais domínio de JavaScript, percebi que seria mais proveitoso manejar o tempo entregando um layout mais simples, mas que tivesse funcionalidades, e que eu entendesse como elas funcionam.
 
 
