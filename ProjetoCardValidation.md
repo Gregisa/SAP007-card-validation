@@ -89,6 +89,7 @@ Acho que além da parte técnica, começei a aprender a manejar melhor o tempo e
 
 Oi, me chamo Isabela e estou em transição de carreira desde 2021. Sempre gostei de aprender outros idiomas, e quando conheci o mundo da programação encontrei um meio de conhecer a linguagem das máquinas. É um mundo extenso, complexo e desafiador, tudo que me encanta. Comecei minha jornada na Laboratoria na turma 007-2022 e esse é meu primeiro projeto solo :⁾)
 
+PS: Agradeço pela oportunidade da Laboratória, pelo apoio dos meus familiares e pela ajuda que recebi das outras alunas do bootcamp, em especial as do Squad 4. No fim o mérito é individual, mas a jornada pecorrida até atingir um objetvo é sempre repleta da contribuição de outras pessoas. Obrigada!
 
 
 
