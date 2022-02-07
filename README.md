@@ -52,7 +52,7 @@ Porém, esse primeiro layout tinha um problema: o foco desse projeto. Para fazer
 PROTÓTIPO 2:
 Com os pés mais no chão, despus de um tempo pra colocar em prática minhas habilidades com CSS e HTML,criando um layout menos robusto, mas que ainda tivesse sentido e se relacionasse com o tema da minha aplicação:
 
-![Getting Started](src/2protótipo.png) 
+![Getting Started](src/2protótipo.png alt="2protótipo" width="200px") 
 
 
 Esse layout já foi feito pela ferramenta Mockflow, busquei entregar algo que ao menos tivesse conteúdo disponível que envolvesse cinema para ser acessado por links no navegador, já que focaria meu tempo desenvolvendo a lógica de programação.
