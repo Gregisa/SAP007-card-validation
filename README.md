@@ -63,7 +63,7 @@ PROTÓTIPO 3:
 Depois de ter finalizado a parte de validação do cartão, me dei a liberdade de explorar mais o CSS e aprimorar o layout da aplicação testando técnias que não tinha usado antes.
 
 
-![Getting Started](src=3protótipo.jpg)
+![Getting Started](src/3protótipo.jpg)
 
 
 ## 4 .Planejamento do Projeto
