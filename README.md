@@ -44,7 +44,7 @@ Assim que decidi qual seria o projeto que faria (tinham duas opções), já imag
 
 
 
-![Getting Started](src/1protótipo.jpg)
+![Getting Started](src/1protótipo.jpeg)
 
 Porém, esse primeiro layout tinha um problema: o foco desse projeto. Para fazer um cartão de crédito usando CSS e HTML, a demanda de tempo e dedicação seria grande (não impossível). Como minha meta para essa aplicação era ter mais domínio de JavaScript, percebi que seria mais proveitoso manejar o tempo entregando um layout mais simples, mas que tivesse funcionalidades, e que eu entendesse como elas funcionam.
 
@@ -63,7 +63,7 @@ PROTÓTIPO 3:
 Depois de ter finalizado a parte de validação do cartão, me dei a liberdade de explorar mais o CSS e aprimorar o layout da aplicação testando técnias que não tinha usado antes.
 
 
-![Getting Started](src/3protótipo.jpg)
+![Getting Started](src/3protótipo.jpeg)
 
 
 ## 4 .Planejamento do Projeto
