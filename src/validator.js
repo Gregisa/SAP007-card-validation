@@ -7,8 +7,9 @@
        cardArray.push(digit);                    //caracteres do array transformados em numbers através do parseInt
        console.log(cardNumber);
       }                                         //'push' manda para a variável 'cardArray' seus caracteres já transformados em numbers                                   //em 'arrayNumbers'
-  
+     
      const reverseArray=cardArray.reverse();    //'reverseArray' armazena o resultado dos números do array invertidos por meio do reverse()
+     const masked= maskNumber.join(''); 
                                                                  
      for(let i=0; i<reverseArray.length; i++){   //for identfica as posições intercaladas dentro do array que serão *2
        if((i+1)%2===0){                            //se a posição dentro do array for par, multiplicar por 2
@@ -29,25 +30,21 @@
      }else{
        return false;                             //se não, falso
      }
-    }
-    /*maskify: function (cardNumber){
-
-      if(cardNumber.length<4){
-        return cardNumber
-      }else{
-        let maskNumbers=''
-
-      for(let i=cardNumber.length-4; i< cardNumber.length; i++){
-          maskNumber= maskNumber + cardNumber[i]
+    },
+    maskify(cardNumber) {                         
+      let maskNumber = [];
+  
+      for (let i = 0; i < cardNumber.length; i++) {   //loop p/ iterar todos os carcateres do array
+        if (i < cardNumber.length - 4) {             // se 
+          maskNumber.push("#");                      //
+        } else {                                   
+          maskNumber.push(cardNumber[i]);            //
         }
-         let mask=''
-         for(let i=0; i<cardNumber.length-4; i++){
-           mask= mask+ '#'
-         }
-         return mask+maskNumbers
-
       }
-    }*/
+      const masked= maskNumber.join('');    
+      return masked;   //juntar tudo
+    },
+     
   };
 
   export default validator;

@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 Card Validation Project -Point de Cannes-
 
 
@@ -44,9 +43,8 @@ PROTÓTIPO 1:
 Assim que decidi qual seria o projeto que faria (tinham duas opções), já imaginei o layout e fiz num papel:
 
 
-<div id="image" class="prototype1">
-<img src="1protótipo.jpg">
-</div>
+
+![Getting Started](src/1protótipo.jpg)
 
 Porém, esse primeiro layout tinha um problema: o foco desse projeto. Para fazer um cartão de crédito usando CSS e HTML, a demanda de tempo e dedicação seria grande (não impossível). Como minha meta para essa aplicação era ter mais domínio de JavaScript, percebi que seria mais proveitoso manejar o tempo entregando um layout mais simples, mas que tivesse funcionalidades, e que eu entendesse como elas funcionam.
 
@@ -54,9 +52,8 @@ Porém, esse primeiro layout tinha um problema: o foco desse projeto. Para fazer
 PROTÓTIPO 2:
 Com os pés mais no chão, despus de um tempo pra colocar em prática minhas habilidades com CSS e HTML,criando um layout menos robusto, mas que ainda tivesse sentido e se relacionasse com o tema da minha aplicação:
 
-<div class="image2">
-<img src="2protótipo.png">
-</div>
+![Getting Started](src/2protótipo.png) 
+
 
 Esse layout já foi feito pela ferramenta Mockflow, busquei entregar algo que ao menos tivesse conteúdo disponível que envolvesse cinema para ser acessado por links no navegador, já que focaria meu tempo desenvolvendo a lógica de programação.
 
@@ -65,9 +62,9 @@ A escolha da cor de fundo foi pensada a partir do tapete vermelho visto frequent
 PROTÓTIPO 3:
 Depois de ter finalizado a parte de validação do cartão, me dei a liberdade de explorar mais o CSS e aprimorar o layout da aplicação testando técnias que não tinha usado antes.
 
-<div class="image3">
-<img src="3protótipo.jpg">
-</div>
+
+![Getting Started](src=3protótipo.jpg)
+
 
 ## 4 .Planejamento do Projeto
 
@@ -79,7 +76,7 @@ Também foi importante o uso da planilha da Daily, que usamos em todos os dias d
 
 ## 5.Aprendizado
 
-Como já dito acima, meu objetivo principal nesse projeto era compreender mais lógica de programação num todo, então foquei menos no layout. Muito mais que isso, queria entender como a linguagem JavaScript funciona no detalhe, o uso e manipulação de DOM, funções, condições e loops.
+Como já dito acima, meu objetivo principal nesse projeto era compreender mais lógica de programação num todo, então a princípio foquei menos no layout. Muito mais que isso, queria entender como a linguagem JavaScript funciona no detalhe, o uso e manipulação de DOM, funções, condições e loops.
 
 Acho que além da parte técnica, começei a aprender a manejar melhor o tempo e fazer planejamento para não desperdiçar as sprints. Isso é muito valioso e com certeza levarei para os prõximos projetos. 
 
@@ -104,12 +101,4 @@ Acho que além da parte técnica, começei a aprender a manejar melhor o tempo e
 
 Oi, me chamo Isabela e estou em transição de carreira desde 2021. Sempre gostei de aprender outros idiomas, e quando conheci o mundo da programação encontrei um meio de conhecer a linguagem das máquinas. É um mundo extenso, complexo e desafiador, tudo que me encanta. Comecei minha jornada na Laboratoria na turma 007-2022 e esse é meu primeiro projeto solo :⁾)
 
-
-
-
-
-
-=======
->>>>>>> c592620bab151e29772b5f8ed2001da07066196b
-
-
+PS: Agradeço pela oportunidade da Laboratória, pelo apoio dos meus familiares e pela ajuda que recebi das outras alunas do bootcamp, em especial as do Squad 4. No fim o mérito é individual, mas a jornada pecorrida até atingir um objetvo é sempre repleta da contribuição de outras pessoas.
