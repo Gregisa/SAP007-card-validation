@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 Card Validation Project -Point de Cannes-
 
 
@@ -44,9 +43,9 @@ PROTÓTIPO 1:
 Assim que decidi qual seria o projeto que faria (tinham duas opções), já imaginei o layout e fiz num papel:
 
 
-<div id="image" class="prototype1">
-<img src="1protótipo.jpg">
-</div>
+<div align="center>
+            
+ </div>
 
 Porém, esse primeiro layout tinha um problema: o foco desse projeto. Para fazer um cartão de crédito usando CSS e HTML, a demanda de tempo e dedicação seria grande (não impossível). Como minha meta para essa aplicação era ter mais domínio de JavaScript, percebi que seria mais proveitoso manejar o tempo entregando um layout mais simples, mas que tivesse funcionalidades, e que eu entendesse como elas funcionam.
 
@@ -54,20 +53,11 @@ Porém, esse primeiro layout tinha um problema: o foco desse projeto. Para fazer
 PROTÓTIPO 2:
 Com os pés mais no chão, despus de um tempo pra colocar em prática minhas habilidades com CSS e HTML,criando um layout menos robusto, mas que ainda tivesse sentido e se relacionasse com o tema da minha aplicação:
 
-<div class="image2">
-<img src="2protótipo.png">
-</div>
+<inserir imagem protótipo 2>
 
 Esse layout já foi feito pela ferramenta Mockflow, busquei entregar algo que ao menos tivesse conteúdo disponível que envolvesse cinema para ser acessado por links no navegador, já que focaria meu tempo desenvolvendo a lógica de programação.
 
 A escolha da cor de fundo foi pensada a partir do tapete vermelho visto frequentemente em grandes premiações do cinema, já os detalhes da página tem cores amarelo claro que remetem ao dourado dos prêmios e troféus em si. 
-
-PROTÓTIPO 3:
-Depois de ter finalizado a parte de validação do cartão, me dei a liberdade de explorar mais o CSS e aprimorar o layout da aplicação testando técnias que não tinha usado antes.
-
-<div class="image3">
-<img src="3protótipo.jpg">
-</div>
 
 ## 4 .Planejamento do Projeto
 
@@ -109,7 +99,5 @@ Oi, me chamo Isabela e estou em transição de carreira desde 2021. Sempre goste
 
 
 
-=======
->>>>>>> c592620bab151e29772b5f8ed2001da07066196b
 
 
