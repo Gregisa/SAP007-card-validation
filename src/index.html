@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title class="mainTitle">Point de Cannes</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lato:wght@900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
+
   </head>
    <body>
     
-    <div id="mainnav" class="navigator">  		
+    <nav class="navigator">  		
       <ul>  			
         <li><a href="https://www.cineset.com.br/festival-de-cannes-quem-sai-forte-para-o-oscar-2022/" target="_blank">
           De Cannes ao Oscar</a></li>  			
@@ -18,46 +23,38 @@
         <li><a href="https://www.culturagenial.com/melhores-filmes-brasileiros-de-todos-os-tempos/" target="_blank">
           Brazuca</a></li>  		
       </ul>  	
-    </div>
+    </nav>
       
     <h1 class="mainTitle">Point de Cannes</h1><hr>
-     <h2 class="subTitle">Seu streaming premiado</h2>
+     
     
-    <div id="area" class="content">
-      <p class="message">Seu teste de 30 dias expirou.<hr class="lineMessage"><br>
-         Continue sendo uma usuária Première <br>
-         e receba em primeira mão as novidades do mundo cinéfilo por 
-         apenas R$15,99/mês. <br> É só inserir um número de cartão de crédito válido:<br>
-      </p>
-    </div>
+    <section class="content">
+      <p class="message"> Seu teste de 30 dias expirou.</p><br>
+         <h3 class="cardMessage"> Continue sendo uma usuária Première <br>
+         e receba em primeira mão as novidades do mundo <br> cinéfilo por 
+         apenas R$15,99/mês. É só inserir um número de <br> cartão de crédito válido:
+         </h3>
+    </section>
 
       <div id ="container" class="cardContainer">
          <div id="blackCard" class="card">
           <input type="text" name="card" id="cardNumber" class="cardDigits" placeholder="0000 0000 0000 0000" maxlength="16">
-          <input type="button" value="Validar" id="cardButton" class="button" addeventlistener="click">
+          <button id="cardButton" class="button">VALIDAR</button>
          </div>
       </div>
      
       <footer class="footerInfos">
        Developed by: Isabela Gregoraci <br><br>
-        <div class="contact">
+        <section class="contact">
           <a href ="https://www.linkedin.com/in/isabela-bonander-gregoraci-9424a015b/" target="_blank">
             <img class="linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"/>
           </a>
           <a href="https://www.github.com/Gregisa" target="_blank">
             <img class="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
           </a>
-        </div>
-
+        </section>
       </footer>
     
-    
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-  
-
-      <script src="validator.js"></script>
       <script src="index.js" type="module"></script>
 
   </body>

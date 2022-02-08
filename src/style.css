@@ -1,71 +1,66 @@
 
-body{                                /*estilização do conteúdo da página, com cor,fonte, espaçamento para ficar alinhado*/
-        font-family: 'Cinzel', serif;  
-        background: linear-gradient(          /*gradiente p deixar a imagem de fundo mais suave*/
-            90deg,
-            rgba(214, 250, 216, 0.08),     
-            rgba(235, 253, 239, 0.1)
-          ),
-        url("chairs.jpg");                
-        background-repeat: no-repeat;
-        background-size:cover;
+body{                                
+     color:#fff;
+     height: 100%;
     }     
     
     hr{
-        color: rgb(196, 154, 77);
-        width: 23%;
-        margin: 0 auto 0 0;   
+        color: rgb(56, 53, 53);
+        width: 100%;
+        margin: 0 auto 0 0; 
+        border-width: 0;  
+        height: 1px;
+        border-top-width: 1px;
     }
     
     .mainTitle{
-      padding-left: 10px;
-      color:rgb(196, 154, 77);
+      font-family:'Bungee Shade', cursive;  
+      padding-left: 5px;
+      padding-bottom: 1px;
+      padding-top: 1px;
+      color:black;
       text-align: left;
     }
     .subTitle{
-        padding-bottom: 20px;
-        color: rgb(196, 154, 77);
-        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        color: black;
+        font-size: 17px;
         text-align: left;
     }
-    .content{                            /*estilização da div que contém o conteúdo principal da app
-                                                 */
-      height: 280px;
-      max-width:330px;
-      background:url("background.jpg");
-      color: rgb(196, 154, 77);
+    .message{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .cardMessage{
+        text-align: center;
+
+    }
+    .content{                           
+      font-family:Arial, Helvetica, sans-serif;
+      color: black;
       position:relative;
       right: 400px;
       padding:10px;
-      margin:auto;  
-      border-radius:20px;	
+      margin:10px;  
       text-align:center;
-      font-weight: bold;
-      backdrop-filter: blur(70px);
-      box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.797);
-      border: solid 2px rgba(255, 255, 255, 0.027);
-    }
-    .lineMessage{
-        width: 100%;
-        margin: 0 auto 0 0;
-        
     }
     .cardContainer{           
         height: 400px;
         width:500px;
-        background: url("background.jpg");
-        border-radius: 20px;
+        background-color:#fff;
         backdrop-filter: blur(70px);
-        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.797);
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.527);
         border: solid 2px rgba(255, 255, 255, 0.027);
         position: relative;
         left:600px;
-        bottom:350px;
+        bottom:230px;
         padding-left: 2px;
     }
-    .card{width: 300px;
+    .card{
+        width: 300px;
         height: 180px;
-        background: linear-gradient(68.15deg, #2F2325 16.62%, #9b6767 85.61%);
+        background: linear-gradient(68.15deg, #2F2325 16.62%, #271f49 85.61%);
         border-radius: 25px;
         position: relative;
         top:50px;
@@ -76,17 +71,18 @@ body{                                /*estilização do conteúdo da página, co
         top:220px;
         left:30px;
         background-color:#EEE8AA;
-        border-radius:10px;
     }
     .button{
         position: relative;
         top:240px;
         left:100px;
-        background-color:#EEE8AA;
-        border-radius: 10px;
+        background-color:#b89198;
+        color:#fff;
     }
-    .navigator ul {                          /*est. do navegador, que tem um menu em forma de lista com conteúdos*/
-	margin: 0 0 0 0px;                      /* que ao passar o mouse, mudam de cor */
+    .navigator ul {  
+    font-family: Arial, Helvetica, sans-serif;                           
+	margin: 0px;
+    padding-bottom: 10px;                     
 	list-style-type: none;
     justify-content:space-evenly;	
 	}
@@ -101,26 +97,24 @@ body{                                /*estilização do conteúdo da página, co
     
     .navigator li a {
         text-decoration: none;
-        color: rgb(196, 154, 77);
+        color: black;
     }
     
     .navigator li a:hover {
         text-decoration: none;
-        color: #fff;
+        color: #564c86;
     }
     
     .navigator{  	
         margin: 1em auto;  	
-    
-        }    
+    }    
 
         .footerInfos{
-            color: rgb(196, 154, 77);
-            padding: 10px;
+            color: black;
             text-align: center;
-            font-size: 20px;
-            font-weight: bolder;
-
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
         }
         .linkedin{
             width:70px;
@@ -133,4 +127,4 @@ body{                                /*estilização do conteúdo da página, co
     
           @media only screen and (max-device-width: 700px){
 
-          }
+        }

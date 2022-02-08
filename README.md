@@ -1,5 +1,6 @@
 
-Card Validation Project -Point de Cannes-
+Card Validation Project 
+-Point de Cannes-
 
 
 ## SUMÁRIO
@@ -19,7 +20,7 @@ Card Validation Project -Point de Cannes-
 A proposta do projeto Card Validation deu origem à aplicação Point de Cannes, uma plataforma de streamming voltada pra usuários cinéfilos e também espectadores que buscam conhecer mais do cinema, para além da bolha hollywoodiana. 
 O serviço de streamming oferece aos novos usuários um teste gratuito de 30 dias para ser usuário Prèmiere, tendo acesso a conteúdos exclusivos e catálogos de filmes independetes e recém estreiados.
 
-O wireframe apresentado na página é uma mensagem informando que esse teste gratuito expirou, e que para que o usuário continue sendo Prèmiere, deve informar um número válido de cartão de crédito.
+O conteúdo principal da páginaé um mensagem informando que esse teste gratuito expirou, e que para que o usuário continue sendo Prèmiere, deve informar um número válido de cartão de crédito.
 
 
 ## 2. Funcionamento
@@ -70,7 +71,7 @@ Depois de ter finalizado a parte de validação do cartão, me dei a liberdade d
 
 O projeto Card Validation(Point de Cannes) tinha, preferencialmente, duração de 2-3 semanas para ser executado, desde protótipo, passando por código e testes. 
 
-Para me planejar ultilizei a ferramenta Trello, que auxilia na parte de divisão de tarefas entre 'A fazer', 'Fazendo' e 'Feito'. Assim, tive auxílio para entender os pequenos passos que deveria tomar para construir o projeto e como administrar o tempo para ser produtiva, sem sobrecarregar.
+Para me planejar ultilizei a ferramenta Trello, que auxilia na parte de divisão de tarefas entre 'A fazer', 'Fazendo' e 'Feito'. Assim, tive auxílio para entender os pequenos passos que deveria tomar para construir o projeto.
 
 Também foi importante o uso da planilha da Daily, que usamos em todos os dias de aula do bootcamp, para assim conseguirmos executar as tarefas colocando em perspectiva o que já fizemos e onde queremos chegar.
 
@@ -78,7 +79,7 @@ Também foi importante o uso da planilha da Daily, que usamos em todos os dias d
 
 Como já dito acima, meu objetivo principal nesse projeto era compreender mais lógica de programação num todo, então a princípio foquei menos no layout. Muito mais que isso, queria entender como a linguagem JavaScript funciona no detalhe, o uso e manipulação de DOM, funções, condições e loops.
 
-Acho que além da parte técnica, começei a aprender a manejar melhor o tempo e fazer planejamento para não desperdiçar as sprints. Isso é muito valioso e com certeza levarei para os prõximos projetos. 
+Acho que além da parte técnica, começei a aprender a importância de manejar melhor o tempo e fazer planejamento para não desperdiçar as sprints.
 
 ## 6.Ferramentas Ultilizadas
 
