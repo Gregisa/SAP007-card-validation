@@ -9,8 +9,7 @@
       }                                         //'push' manda para a variável 'cardArray' seus caracteres já transformados em numbers                                   //em 'arrayNumbers'
      
      const reverseArray=cardArray.reverse();    //'reverseArray' armazena o resultado dos números do array invertidos por meio do reverse()
-     const masked= maskNumber.join(''); 
-                                                                 
+
      for(let i=0; i<reverseArray.length; i++){   //for identfica as posições intercaladas dentro do array que serão *2
        if((i+1)%2===0){                            //se a posição dentro do array for par, multiplicar por 2
          reverseArray[i]=reverseArray[i]*2       //então o número identificado em reverse array[i] agr se torna ele mesmo dobrado

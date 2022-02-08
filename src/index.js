@@ -7,9 +7,6 @@ button.addEventListener('click', cardValidation);      //o escutador de eventos 
 
 function cardValidation() {                            //no caso, a função 'cardValidation'
 
-  /*const mask= validator.maskify(cardNumber).value;
-  document.getElementById('cardNumber').value*/ 
-
   const finalValidation = validator.isValid(digitsValue);     //veredicto da validação, onde 'finalValidation' checa se a var 'validator' aplicada à
        
       if (digitsValue.length===0 || digitsValue===''); {    //caso o valor digitado em 'cardNumber seja zero ou uma string, disparar alert
@@ -22,5 +19,8 @@ function cardValidation() {                            //no caso, a função 'ca
       if(finalValidation===false) {
         alert("Número de cartão inválido");
       }   
+      const mask= validator.maskify(digitsValue);
+  document.getElementById('cardNumber',).value=mask;
+  document.addEventListener('keypress', mask); 
 }
   
