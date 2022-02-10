@@ -3,161 +3,161 @@ body{
      color:#fff;
      height: 100%;
      background: linear-gradient(68.15deg, #2F2325 16.62%, #572626 85.61%);
+     width: 100%;
     }     
     
     hr{
         color:#fff;
         width: 100%;
-        margin: 0 auto 0 0; 
+        margin: 1%; 
         border-width: 0;  
         height: 1px;
         border-top-width: 2px;
+        position:absolute;
+        top:13%;
     }
     .mainTitle{
       font-family:'Bungee Shade', cursive;  
-      padding-left: 7px;
-      padding-bottom: 6px;
+      padding-left:2%;
+      padding-bottom:1%;
       color:#fff;
       text-align: left;
-      font-size: 44px;
-      margin-bottom: 10px;
+      font-size:250%;
+      position: absolute;
+      top:0%;
     }
     .subTitle{
         font-family:'Roboto', sans-serif;
-        padding-bottom: 10px;
+        padding-bottom:1%;
         color:#fff;
-        font-size: 17px;
+        font-size: 7%;
         text-align: left;
     }
-    .message{
-        font-size: 25px;
-        font-weight: bold;
-    }
-    .cardMessage{
-        text-align: center;
-        padding:10px;
-
-
-    }
-    .content{                           
-      font-family:'Roboto', sans-serif;
-      color: #fff;
-      position:relative;
-      right: 350px;
-      padding:10px;
-      margin:10px;  
-      text-align:center;
-    }
-    .cardContainer{           
-        height: 400px;
-        width:500px;
-        background-color:transparent;
-        box-shadow: 4px 4px 1px 1px #fff;
-        border-radius:5px;
-        border:1px solid #fff;
-        display:inline-block;
-        cursor:pointer;
-        color:#fff;
-        position: relative;
-        left:600px;
-        bottom:230px;
-        padding-left: 2px;
-    }
-    .card{
-        width: 300px;
-        height: 180px;
-        border-radius: 25px;
-        border:1px solid #fff;
-        box-shadow: 4px 4px 1px 1px #fff;
-        position: relative;
-        top:50px;
-        left:100px;
-        background-color: transparent;
-    }
-    .cardDigits{
-        position: relative;
-        top:220px;
-        left:30px;
-        background-color:transparent;
-        border-radius:5px;
-        border:1px solid #fff;
-        display:inline-block;
-        cursor:pointer;
-        color:#fff;
-
-    }
-    .button{
-        position: relative;
-        top:240px;
-        left:100px;
-        box-shadow: 4px 4px 1px 1px #fff;
-        background-color:transparent;
-        border-radius:5px;
-        border:1px solid #fff;
-        display:inline-block;
-        cursor:pointer;
-        color:#fff;
-        font-family:Arial;
-        font-size:14px;
-        font-weight:bold;
-        font-style:italic;
-        padding:13px 36px;
-        text-decoration:none;
-        text-shadow:0px 0px 0px #fff;
-        }
-        .button:hover {
-            background-color:#e2643e;
-        }
-        .Button:active {
-            position:relative;
-            top:1px;
-        }
-        
     .navigator ul {  
-    font-family: 'Roboto', sans-serif;
-	margin: 0px;
-    padding-bottom: 10px;                     
-	list-style-type: none;
-    justify-content:space-evenly;	
-	}
-    .navigator li {
-        display: inline;
-        padding: 0 10px;
-        position: relative;
-        left: 500px;
-        font-weight: bolder;
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding-bottom: 10px;                     
+        list-style-type: none;
+        justify-content:space-evenly;	
+        }
+        .navigator li {
+            display: inline;
+            padding:1%;
+            position: relative;
+            left:54%;
+            font-weight: bolder;
+            
+        }
         
-    }
-    
-    .navigator li a {
-        text-decoration: none;
-        color: #fff;
-    }
-    
-    .navigator li a:hover {
-        text-decoration: none;
-        color: #e2643e;
-    }
-    
-    .navigator{  	
-        margin: 1em auto;  	
-    }    
-        .footerInfos{
-            color:#fff;
-            text-align: center;
-            font-size: 16px;
+        .navigator li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .navigator li a:hover {
+            text-decoration: none;
+            color: #e2643e;
+        }
+        
+        .navigator{  	
+            margin: 1em auto;  	
+        }    
+            .message{
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .cardMessage{
+                text-align: center;
+            }
+            .content{                           
             font-family:'Roboto', sans-serif;
-            font-weight: bold;
-        }
-        .linkedin{
-            width:70px;
-            height:50px;
-        }
-        .github{
-            width:70px;
-            height:50px;
-        }
-    
-          @media only screen and (max-device-width: 700px){
+            color: #fff;
+            position:absolute;
+            left:3%;
+            top:20%;
+            padding:1%;
+            margin:2%;  
+            text-align:center;
+            }
+            .cardContainer{           
+                height:45vh;
+                width:30vw;
+                background-color:transparent;
+                box-shadow: 4px 4px 1px 1px #fff;
+                border-radius:5px;
+                border:1px solid #fff;
+                color:#fff;
+                position:absolute;
+                left:54%;
+                bottom:30%;
+        
+            }
+            .card{
+                width:20vw;
+                height:25vh;
+                border-radius: 25px;
+                border:1px solid #fff;
+                box-shadow: 4px 4px 1px 1px #fff;
+                position: absolute;;
+                top:9%;
+                left:17%;
+                background-color: transparent;
+            }
+            .cardDigits{
+                position:absolute;
+                bottom:26%;
+                left:7%;
+                background-color:transparent;
+                border-radius:5px;
+                border:1px solid #fff;
+                color:#fff;
 
-        }
+            }
+            .button{
+                position:absolute;
+                bottom:8%;
+                left:32%;
+                box-shadow: 4px 4px 1px 1px #fff;
+                background-color:transparent;
+                border-radius:5px;
+                border:1px solid #fff;
+                display:inline-block;
+                cursor:pointer;
+                color:#fff;
+                font-family:Arial;
+                font-size:13px;
+                font-weight:bold;
+                font-style:italic;
+                padding:13px 36px;
+                text-decoration:none;
+                text-shadow:0px 0px 0px #fff;
+                }
+                .button:hover {
+                    background-color:#e2643e;
+                }
+                .Button:active {
+                    position:relative;
+                    top:1px;
+                }
+                .footerInfos{
+                    color:#fff;
+                    font-size: 16px;
+                    font-family:'Roboto', sans-serif;
+                    font-weight: bold;
+                    position:absolute;
+                    bottom:3%;
+                    right:40%;
+            
+                }
+                .linkedin{
+                    width:10vw;
+                    height:5vh;
+                }
+                .github{
+                    width:10vw;
+                    height:5vh;
+                }
+            
+                @media only screen and (max-device-width: 700px){
+
+                }

@@ -42,7 +42,7 @@
         }
       }
       const masked= maskNumber.join('');    
-      return masked;
+      return masked.isValid;
     },
      
   };

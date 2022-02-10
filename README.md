@@ -56,16 +56,6 @@ Com os pés mais no chão, despus de um tempo pra colocar em prática minhas hab
 ![Getting Started](src/2protótipo.png) 
 
 
-Esse layout já foi feito pela ferramenta Mockflow, busquei entregar algo que ao menos tivesse conteúdo disponível que envolvesse cinema para ser acessado por links no navegador, já que focaria meu tempo desenvolvendo a lógica de programação.
-
-A escolha da cor de fundo foi pensada a partir do tapete vermelho visto frequentemente em grandes premiações do cinema, já os detalhes da página tem cores amarelo claro que remetem ao dourado dos prêmios e troféus em si. 
-
-PROTÓTIPO 3:
-Depois de ter finalizado a parte de validação do cartão, me dei a liberdade de explorar mais o CSS e aprimorar o layout da aplicação testando técnias que não tinha usado antes.
-
-
-![Getting Started](src/3protótipo.jpeg)
-
 
 ## 4 .Planejamento do Projeto
 
