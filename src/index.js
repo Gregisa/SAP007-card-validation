@@ -1,11 +1,11 @@
 import validator from './validator.js';
 
 const button = document.getElementById('cardButton');      
-const cardNumber =document.getElementById('cardNumber');  
+const cardNumber =document.getElementById('cardNumber');
+let digitsValue= '';  
 button.addEventListener('click', cardValidation);                                                   
 
-function cardValidation() { 
-  const digitsValue= cardNumber.value; 
+function cardValidation() {  
            
   const finalValidation = validator.isValid(digitsValue);     
 
@@ -21,7 +21,10 @@ function cardValidation() {
       }   
 }  
 
-/*const mask= validator.maskify(digitsValue);
-document.getElementById('cardNumber').value=mask;
-document.addEventListener('keypress', mask);*/    
-  
+  function maskedNumbers(e){
+    console.log(e);
+    digitsValue= digitsValue+e.key;    
+    const mask= validator.maskify(digitsValue);
+    cardNumber.value=mask;
+    }
+    cardNumber.addEventListener('keypress', maskedNumbers);
