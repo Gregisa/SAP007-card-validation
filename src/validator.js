@@ -43,8 +43,7 @@
       }
       const masked= maskNumber.join('');    
       return masked;
-    },
-     
-  };
+    }
+};
 
   export default validator;

@@ -1,42 +1,46 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    box-sizing: border-box;
+}
 body{                                
      color:#fff;
-     height: 100%;
      background: linear-gradient(68.15deg, #2F2325 16.62%, #572626 85.61%);
-     width: 100%;
-    }     
-    
-    hr{
+     }     
+
+    i{
+        font-size:35px;
         color:#fff;
-        width: 100%;
-        margin: 1%; 
-        border-width: 0;  
-        height: 1px;
-        border-top-width: 2px;
-        position:absolute;
-        top:13%;
+        width:4vw;
+        height:5vh;
+    }
+    .opacityBack{
+        background-color: rgb(36, 20, 17);
+        opacity: 0.4;
+        width:100vw;
+        height:23vh;
+        position: absolute;
+        top:0%;
     }
     .mainTitle{
-      font-family:'Bungee Shade', cursive;  
-      padding-left:2%;
-      padding-bottom:1%;
+      font-family:'Bungee Inline', cursive;  
       color:#fff;
       text-align: left;
       font-size:250%;
       position: absolute;
-      top:0%;
-    }
-    .subTitle{
-        font-family:'Roboto', sans-serif;
-        padding-bottom:1%;
-        color:#fff;
-        font-size: 7%;
-        text-align: left;
-    }
+      top:2%;
+      left:3%;
+}
     .navigator ul {  
         font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        color:#fff;
+        font-size: 17px;
         margin: 0px;
-        padding-bottom: 10px;                     
+        padding:3%;                   
         list-style-type: none;
         justify-content:space-evenly;	
         }
@@ -44,16 +48,12 @@ body{
             display: inline;
             padding:1%;
             position: relative;
-            left:54%;
-            font-weight: bolder;
-            
+            left:45%;
         }
-        
         .navigator li a {
             text-decoration: none;
             color: #fff;
         }
-        
         .navigator li a:hover {
             text-decoration: none;
             color: #e2643e;
@@ -61,36 +61,30 @@ body{
         
         .navigator{  	
             margin: 1em auto;  	
-        }    
-            .message{
-                font-size: 25px;
-                font-weight: bold;
-            }
-            .cardMessage{
-                text-align: center;
-            }
-            .content{                           
-            font-family:'Roboto', sans-serif;
-            color: #fff;
-            position:absolute;
-            left:3%;
-            top:20%;
-            padding:1%;
-            margin:2%;  
-            text-align:center;
-            }
+        }  
+     
             .cardContainer{           
-                height:45vh;
-                width:30vw;
+                height:53vh;
+                width:50vw;
                 background-color:transparent;
                 box-shadow: 4px 4px 1px 1px #fff;
                 border-radius:5px;
                 border:1px solid #fff;
                 color:#fff;
                 position:absolute;
-                left:54%;
-                bottom:30%;
-        
+                left:24%;
+                bottom:15%;
+            }
+            .content{                           
+                font-family:'Roboto', sans-serif;
+                color: #fff;
+                position:absolute;
+                left:0%;
+                top:15%;
+                padding:1%;
+                margin:2%;  
+                text-align:left;
+                font-weight: bolder;
             }
             .card{
                 width:20vw;
@@ -99,24 +93,25 @@ body{
                 border:1px solid #fff;
                 box-shadow: 4px 4px 1px 1px #fff;
                 position: absolute;;
-                top:9%;
-                left:17%;
+                top:13%;
+                left:53%;
                 background-color: transparent;
             }
             .cardDigits{
                 position:absolute;
                 bottom:26%;
-                left:7%;
+                left:4%;
                 background-color:transparent;
                 border-radius:5px;
                 border:1px solid #fff;
                 color:#fff;
+                cursor: pointer;
 
             }
             .button{
                 position:absolute;
-                bottom:8%;
-                left:32%;
+                bottom:15%;
+                left:63%;
                 box-shadow: 4px 4px 1px 1px #fff;
                 background-color:transparent;
                 border-radius:5px;
@@ -124,7 +119,7 @@ body{
                 display:inline-block;
                 cursor:pointer;
                 color:#fff;
-                font-family:Arial;
+                font-family:'Roboto', sans-serif;
                 font-size:13px;
                 font-weight:bold;
                 font-style:italic;
@@ -146,18 +141,9 @@ body{
                     font-weight: bold;
                     position:absolute;
                     bottom:3%;
-                    right:40%;
-            
+                    right:3%;
                 }
-                .linkedin{
-                    width:10vw;
-                    height:5vh;
-                }
-                .github{
-                    width:10vw;
-                    height:5vh;
-                }
-            
+              
                 @media only screen and (max-device-width: 700px){
 
                 }
