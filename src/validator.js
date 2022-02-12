@@ -32,18 +32,14 @@
      }
     },
     maskify(cardNumber) {                         
-      let maskNumber = [];
+      let maskNumber = Array.from(cardNumber);
   
-      for (let i = 0; i < cardNumber.length; i++) {   
-        if (i < cardNumber.length - 4) {             
-          maskNumber.push("#");                      
-        } else {                                   
-          maskNumber.push(cardNumber[i]);            
+      for (let i = 0; i < maskNumber.length-4; i++) {   
+        maskNumber[i]=("#")                                 
         }
-      }
       const masked= maskNumber.join('');    
       return masked;
     }
-};
+}; 
 
   export default validator;

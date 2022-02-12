@@ -47,9 +47,10 @@
           apenas <br> R$15,99/mês.É só inserir um número de <br> cartão de crédito válido:
         </h3>
       </section>
-        <div id="card1" class="card">
-          <input type="text" name="card" id="cardNumber" class="cardDigits" placeholder="0000 0000 0000 0000"
-          maxlength="16">
+      <input id="cardClone" class="clone" disabled> 
+      <div id="card1" class="card">
+          <input type="text" id="cardNumber" class="cardDigits" pattern="[0-9]+" placeholder="0000 0000 0000 0000"
+          maxlength="16" autocomplete="off" required>
         </div>
           <button id="cardButton" class="button">VALIDAR</button>
       </section>
