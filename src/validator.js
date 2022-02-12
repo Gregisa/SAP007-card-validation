@@ -13,7 +13,7 @@
 
      for(let i=0; i<reverseArray.length; i++){   
        if((i+1)%2===0){                            
-         reverseArray[i]=reverseArray[i]*2       
+         reverseArray[i]=reverseArray[i]*2      
        }
        if(reverseArray[i]>=10){                  
          reverseArray[i] = reverseArray[i]-9     

@@ -3,7 +3,6 @@ import validator from './validator.js';
 const button = document.getElementById('cardButton');      
 const cardNumber =document.getElementById('cardNumber');
 const onlyNum = /[^0-9]/g;
-let digitsValue= '';
 button.addEventListener('click', cardValidation);
 cardNumber.addEventListener('keyup', cloneCardN);
 
@@ -11,7 +10,8 @@ cardNumber.addEventListener('input', function() {
 cardNumber.value = cardNumber.value.replace(onlyNum, '');
 }); 
 
-function cloneCardN() {
+function cloneCardN(e) {
+  e.preventDefault();
   let cardValue=document.getElementById('cardNumber').value;
   let mask = validator.maskify(cardValue);
   
@@ -20,6 +20,7 @@ function cloneCardN() {
 
 function cardValidation(e) {  
   e.preventDefault();
+  const digitsValue= cardNumber.value;
     const finalValidation = validator.isValid(digitsValue);     
   
         if (digitsValue.length===0 || digitsValue==='') { 
@@ -33,10 +34,3 @@ function cardValidation(e) {
           return alert('Número de cartão inválido');
         }   
     }
-    /*function maskedNumbers(e){
-    console.log(e);
-    digitsValue= digitsValue+e.key;    
-    const mask= validator.maskify(digitsValue);
-    cardNumber.value=mask;
-    }
-    cardNumber.addEventListener('keypress', maskedNumbers);*/
