@@ -31,15 +31,19 @@
        return false;                             
      }
     },
-    maskify(cardNumber) {                         
-      let maskNumber = Array.from(cardNumber);
-  
-      for (let i = 0; i < maskNumber.length-4; i++) {   
-        maskNumber[i]=("#")                                 
+    maskify(cardNumber) {                          
+        let maskNumber = [];
+    
+        for (let i = 0; i < cardNumber.length; i++) {   
+          if (i < cardNumber.length - 4) {             
+            maskNumber.push("#");                      
+          } else {                                   
+            maskNumber.push(cardNumber[i]);            
+          }
         }
-      const masked= maskNumber.join('');    
-      return masked;
-    }
-}; 
-
+        const masked= maskNumber.join('');    
+        return masked;
+      }
+  };                       
+    
   export default validator;
