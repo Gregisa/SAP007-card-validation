@@ -9,8 +9,6 @@
       }                                         
      
      const reverseArray=cardArray.reverse(); 
-     console.log(reverseArray);   
-
      for(let i=0; i<reverseArray.length; i++){   
        if((i+1)%2===0){                            
          reverseArray[i]=reverseArray[i]*2      
